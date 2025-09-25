@@ -82,7 +82,7 @@ const Productlayout = () => {
     try {
       setLoading(true);
       setError("");
-      const res = await fetch("https://dummyjson.com/products");
+      const res = await fetch(`${import.meta.env.VITE_API_BASE_URL}/api/products`);
       if (!res.ok) throw new Error(`Request failed: ${res.status}`);
       const json = await res.json();
       setData(json?.products ?? []);

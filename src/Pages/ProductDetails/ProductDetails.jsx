@@ -16,7 +16,7 @@ const ProductDetails = () => {
     try {
       setLoading(true);
       setError("");
-      const res = await fetch(`https://dummyjson.com/products/${productId}`);
+      const res = await fetch(`${import.meta.env.VITE_API_BASE_URL}/api/products/${productId}`);
       if (!res.ok) throw new Error(`Request failed: ${res.status}`);
       const json = await res.json();
       setData(json);

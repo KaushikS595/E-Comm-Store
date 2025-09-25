@@ -45,7 +45,7 @@ const HeroSection = () => {
               href="/products?category=grocery"
               className="flex h-16 items-center justify-center rounded-lg border border-gray-200 bg-gray-50 px-4 text-center text-sm font-medium transition hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
             >
-              <span className="text-lg font-semibold">Grocery</span>
+              <span className="text-lg font-semibold">Watches</span>
             </a>
 
             <a
@@ -59,7 +59,7 @@ const HeroSection = () => {
               href="/products?category=furniture"
               className="flex h-16 items-center justify-center rounded-lg border border-gray-200 bg-gray-50 px-4 text-center text-sm font-medium transition hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
             >
-              <span className="text-lg font-semibold">Furniture</span>
+              <span className="text-lg font-semibold">Cars</span> 
             </a>
           </div>
         </div>
